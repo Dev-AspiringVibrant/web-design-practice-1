@@ -24,7 +24,7 @@ header {
 
 p {
     padding: 1em;
-    border: white;
+    border: white solid 1px;
 }
 
 /* Cover 1 */
