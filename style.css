@@ -1,0 +1,45 @@
+/* Navigation Bar */
+header {
+    display: block;
+}
+
+.navigation {
+    background-color: #383e4c;
+    display: block;
+}
+
+.navigation > ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation > ul > li {
+    color: white;
+    display: inline;
+    display: flex;
+}
+.navigation > ul > li > p:hover {
+    background-color: #49505f;
+}
+
+p {
+    padding: 1em;
+    border: white;
+}
+
+/* Cover 1 */
+
+
+/* Content 1 */
+
+
+/* Cover 2 */
+
+
+/* Content 2 */
+
+
+/* Cover 3 */
+
+
+/* Footer */
