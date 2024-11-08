@@ -45,7 +45,7 @@ header {
 .content1 {
     background-color: white;
 }
-.headline1 {
+.headline1, .headline2, .headline3 {
     background-color: #f2f2f2;
 }
 
