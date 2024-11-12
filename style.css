@@ -1,15 +1,15 @@
-/* Navigation Bar */
-header {
-    display: block;
+body {
+    margin: 0;
 }
-
+/* Navigation Bar */
 .navigation {
     background-color: #383e4c;
+    padding-top: 5px;
 }
 
 .navigation > ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .navigation > ul > li {
@@ -26,6 +26,14 @@ header {
     border: white solid 1px;
 }
 
+/* Display Flex */
+section {
+    display: flex;
+}
+div {
+    background-color: #f2f2f2;
+}
+
 /* Cover 1 */
 .cover1 {
     background-image: url(/Layout01Assets/img11.jpg);
@@ -33,20 +41,36 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 500px;
+    transform: translateY(-17px);
 }
 .cover1 h1 {
     font-size: xx-large;
 }
 .cover1 h1, .cover1 aside {
     color: white;
+    transform: translateY(150px);
 }
 
 /* Content 1 */
 .content1 {
     background-color: white;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 150px;
 }
-.headline1, .headline2, .headline3 {
-    background-color: #f2f2f2;
+.green {
+    background-color: #188a28;
+}
+.blue {
+    background-color: #1686c1;
+}
+.red {
+    background-color: #841a00;
+}
+.green, .blue, .red {
+    transform: translateX(125px);
+    color: white;
 }
 
 /* Cover 2 */
@@ -56,13 +80,19 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 500px;
 }
 .cover2 h2, .cover2 p {
     color: white;
+    transform: translateY(150px);
 }
 
 /* Content 2 */
-
+.content2 {
+    margin: 150px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 /* Cover 3 */
 .cover3 {
@@ -71,9 +101,50 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 400px;
 }
 .cover3 h2 {
     color: white;
 }
+.Forumbox {
+    background-color: rgba(255, 255 ,255, 0.3);
+    padding: 1em;
+    border-radius: 0.2em;
+    text-align: center;
+}
+.Forumbox2 {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.3);
+}
+.black {
+    background-color: black;
+    color: white;
+}
 
 /* Footer */
+footer {
+    text-align: center;
+}
+footer h2, footer p.italic {
+    color: rgb(71, 71, 71);
+    font-style: italic;
+}
+footer p, footer p.italic {
+    color: gray;
+}
+footer img {
+    display: flex;
+    float: right;
+}
+
+/* Miscellaneous */
+button {
+    background-color: white;
+    border: none;
+    color: black;
+    cursor: pointer;
+    padding: 1em;
+    border-radius: 0.2em;
+    transform: translateX(10px);
+}
