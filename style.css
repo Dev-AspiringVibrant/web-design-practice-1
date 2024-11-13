@@ -1,3 +1,6 @@
+:root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 body {
     margin: 0;
 }
@@ -147,4 +150,8 @@ button {
     padding: 1em;
     border-radius: 0.2em;
     transform: translateX(10px);
+}
+
+h1, .cover2 h2, .cover3 h2, aside, .cover2 p {
+    text-shadow: 2px 2px#000000;
 }
